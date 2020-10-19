@@ -45,7 +45,7 @@ Verbose mode:
 ![poc_3](screenshot/poc_plc_3.png)
 
 Details verbose mode:
-![poc_1](screenshot/poc_plc_3a.png)
+![poc_1](screenshot/poc_plc_3_a.png)
 
 
 
