@@ -596,8 +596,8 @@ def functions_checks(hst,prt):
 		
 		client.send(mb_request.decode('hex'))
 		modbus_response = (client.recv(2048)).encode("hex")
+		time.sleep(.5)
 		client.close()
-		
 		rspFnc = get_response_function(modbus_response,modbus_functions)
 		valid = is_valid_function(modbus_functions,rspFnc[0],rspFnc[1],mb_request,modbus_response,1)
 	print "\n\n"
